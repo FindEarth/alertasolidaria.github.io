@@ -17,7 +17,7 @@ function initMap() {
   map = new google.maps.Map(document.getElementById('map'));
 
   var latlngList = [];
-  $.get('https://finding-api.herokuapp.com', function(response) {
+  $.get('https://finding-api.herokuapp.com/missing/stats', function(response) {
 
     var geoPoints = response.distinctLocs.map(function(geo) {
       var loc = geo.loc;
