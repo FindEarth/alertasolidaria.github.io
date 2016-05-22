@@ -17,13 +17,13 @@
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/skin-travel-agency.css" />
+	<link rel="stylesheet" href="css/styles.css" />
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 		<style type="text/css">
 			html, body { height: 100%; margin: 0; padding: 0; }
-			#map { height: 100%; }
 		</style>
 </head>
 <body class="shop home-page">
@@ -141,7 +141,7 @@
 													data-no-scale
 												>En Argentina Desaparecen 4 personas por día</h5>
 												<div class="clear"></div>
-												<h1 class="tms-caption title-xlarge no-padding-on-mobile text-uppercase lspacing-medium mb-20 weight-bold color-white"
+												<h1 class="tms-caption no-padding-on-mobile text-uppercase lspacing-medium mb-20 weight-bold color-white home-page-title"
 													data-animate-in="preset:scaleOut;duration:900ms;delay:100ms;"
 													data-no-scale
 												>Ayudanos a encontrarlos</h1>
@@ -150,11 +150,11 @@
 														<p class="tms-caption color-white text-small"
 															data-animate-in="preset:slideInRightShort;duration:900ms;delay:200ms;"
 															data-no-scale
-														>Usando Finding Platform aumenta la posiblidad de encontrar personas perdidas, ayudando de una manera sencilla desde tu celular.</p>
+														>Alerta Solidaria es una plataforma que integra a la comunidad en la busqueda de personas desaparecidas</p>
 														<a href="#getting-started" data-offset="-60" class="tms-caption button scroll-link medium bkg-purple border-hover-white color-white color-hover-white text-uppercase"
 															data-animate-in="preset:scaleOut;duration:900ms;delay:400ms;"
 															data-no-scale
-														>Quiero ayudar!</a>
+														>Como Ayudar?</a>
 													</div>
 												</div>
 											</div>
@@ -176,7 +176,7 @@
 								<div class="feature-text">
 									<span class="text-large font-alt-1">01.</span>
 									<h3 class="text-uppercase color-grey">Descarga la aplicacion</h3>
-									<p class="mb-mobile-30">La aplicacion estara disponible para dispositivos IOS y Android.</p>
+									<!-- <p class="mb-mobile-30">La aplicacion esta disponible para dispositivos IOS y Android.</p> -->
 									<a class="button button-info medium rounded bkg-black bkg-hover-purple color-white color-hover-white no-margin-bottom"><span class="icon-app-store medium left"></span><span class="button-content"><small>Download On The</small>AppStore</span></a>
 									<a class="button button-info medium rounded bkg-black bkg-hover-purple color-white color-hover-white no-margin-bottom"><span class="icon-google-play medium left"></span><span class="button-content"><small>Download On The</small>PlayStore</span></a>
 								</div>
@@ -186,8 +186,8 @@
 							<div class="feature-column small pt-60 pb-60 horizon" data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:100ms;" data-threshold="0.5">
 								<div class="feature-text">
 									<span class="text-large font-alt-1">02.</span>
-									<h3 class="text-uppercase color-grey">Permiti que la aplicacion obtenga tu geolocalizacion</h3>
-									<p class="mb-mobile-30">La obtencion de la geolocalizacion permite mostrar resultados cercanos y la distancia en la que la persona desaparecio.</p>
+									<h3 class="text-uppercase color-grey">Permiti que la aplicacion obtenga tu posicion</h3>
+									<p class="mb-mobile-30">Los resultados seran filtrados para mostrar personas desaparecidas cerca tuyo.</p>
 								</div>
 							</div>
 						</div>
@@ -196,7 +196,7 @@
 								<div class="feature-text">
 									<span class="text-large font-alt-1">03.</span>
 									<h3 class="text-uppercase color-grey">Ayudanos aportando informacion</h3>
-									<p class="mb-mobile-30">Podes ayudar aportando datos de personas desaparecidas cerca de tu localizacion, algun comportamiento extraño, etc. Todo es util.</p>
+									<p class="mb-mobile-30">Podes ayudar aportando datos de personas desaparecidas cerca de tu posicion.</p>
 								</div>
 							</div>
 						</div>
@@ -207,7 +207,6 @@
 				<!-- Hero Section 5 -->
 				<section class="section-block hero-5 hero-5-1 clear-height show-media-column-on-mobile bkg-purple">
 					<div class="media-column width-6 horizon" data-animate-in="preset:slideInLeftShort;duration:1000ms;delay:100ms;" data-threshold="0.5">
-						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26095702.34314833!2d-81.63963960958279!3d-37.02147162103203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses-419!2sar!4v1461603446544" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 						<div id="map"></div>
 					</div>
 					<div class="row">
@@ -215,11 +214,11 @@
 							<div class="hero-content split-hero-content">
 								<div class="hero-content-inner center-on-mobile horizon" data-animate-in="opacity:0;duration:1300ms;" data-threshold="0.5">
 									<div class="color-white">
-										<h2 class="mb-40">Personas desaparecidas</h2>
-										<p class="lead">Personas desaparecidas en Argentina distribuidas por localizacion.</p>
+										<!-- <h2 class="mb-40">Personas desaparecidas</h2> -->
+										<p class="lead">Personas desaparecidas en Argentina</p>
 									</div>
 									<p class="color-white transparent-element">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-									<a href="#featured-trips" data-offset="-60" class="button scroll-link medium border-white bkg-hover-charcoal color-white color-hover-white text-uppercase">See Featured Trips</a>
+									<a href="#featured-trips" data-offset="-60" class="button scroll-link medium border-white bkg-hover-charcoal color-white color-hover-white text-uppercase">Ver Personas</a>
 								</div>
 							</div>
 						</div>
@@ -231,7 +230,7 @@
 				<div id="featured-trips" class="section-block replicable-content bkg-charcoal">
 					<div class="row">
 						<div class="column width-12 color-white">
-							<h3 class="mb-50">Top Excursions</h3>
+							<h3 class="mb-50">Perspiciatis</h3>
 						</div>
 						<div class="column width-12 color-grey-light">
 							<p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt ed quia consequuntur.</p>
@@ -349,7 +348,7 @@
 									<li><a href="#"><span class="icon-twitter small"></span></a></li>
 								</ul>
 								<p class="copyright pull-left clear-float-on-mobile">
-									Made with <3 by <a href="#">Nacho Anaya</a>, <a href="#">Mati Tucci</a> and <a href="#">Nico Del Valle</a>
+									Made with <3 by <a target="_blank" href="https://twitter.com/ianaya89">Nacho Anaya</a>, <a target="_blank" href="https://twitter.com/TucciMatias">Mati Tucci</a> and <a target="_blank" href="https://twitter.com/delvallenicolas">Nico Del Valle</a>
 								</p>
 							</div>
 						</div>
