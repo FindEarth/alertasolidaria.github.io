@@ -5,3 +5,11 @@
 .home-page-title {
   font-size: 3.4rem;
 }
+
+.heart {
+  color: tomato;
+}
+
+.heart::after {
+  content: '♥';
+}
